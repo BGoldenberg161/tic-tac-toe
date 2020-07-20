@@ -34,7 +34,7 @@
 ## JavaScript
 ---
 ### I wanted to take a much more slick approach, but to get to the MVP stage, I sacrificed some of my dreams for a more rudimentary method of defining each element possibly more than I needed to. Rather than look thru an array that is getting updated along with the button I just re-referenced each cell each time a click event went off inside of the board container. I reduced some code by setting my event listner for a click on the board as a whole, rather than each cell individually, as shown below:
-```
+```javascript
 const allCells = document.querySelector('.board');
 
 allCells.addEventListener('click', event => {....};
